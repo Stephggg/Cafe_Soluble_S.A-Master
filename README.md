@@ -27,7 +27,3 @@
 3. El método HTTP forma parte del significado de la operación porque `GET`, `POST`, `PUT` y `DELETE` expresan la intención sobre la misma ruta.
 4. En la URI viaja la identificación del recurso, como el `id`. En JSON viajan los datos del producto, como nombre, presentación, categoría y disponibilidad.
 5. `200` indica consulta exitosa, `201` indica creación y `404` indica que el recurso no existe.
-
-## Aporte técnico
-
-Este proyecto deja los productos en memoria, sin base de datos, para cumplir con el taller y demostrar el uso de Spring Boot, rutas REST, JSON y códigos HTTP.
